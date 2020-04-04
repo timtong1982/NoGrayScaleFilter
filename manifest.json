@@ -1,0 +1,16 @@
+{
+    "name": "No gray scale filter",
+    "version": "0.0.0.1",
+    "manifest_version": 2,
+    "description": "A bowser extension who disables gray scale fitler on html document level",
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content-scripts/content.js"
+            ]
+        }
+    ]
+}
